@@ -123,7 +123,12 @@ func MobileNumberValidationService(reqVal model.MobileNumberValidationRequest) m
 	params.SetBody(fmt.Sprintf("Use this OTP %d to login in Nivas", otp))
 	resp, err := client.Api.CreateMessage(params)
 	if err != nil {
-		log.Fatalf("Error sending message: %v", err)
+		log.Printf("Error sending message: %v", err)
+		return model.MobileNumberValidationResponse{
+			Status:  false,
+			Message: "Error in Sending the OTP",
+			Code:    otp,
+		}
 	}
 
 	fmt.Printf("Message sent successfully! SID: %s\n", *resp.Sid)
