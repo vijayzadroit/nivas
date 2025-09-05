@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	service "nivasBackendMain/Helper/MinIo"
 	"nivasBackendMain/routes"
 	"os"
 
@@ -17,6 +18,10 @@ func main() {
 
 	if err != nil {
 		log.Fatal("❌Error loading .env file")
+	}
+
+	if err := service.InitMinioClient(); err != nil {
+		log.Fatalf("❌ MinIO initialization failed: %v", err)
 	}
 
 	r.SetTrustedProxies(nil)

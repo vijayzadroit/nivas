@@ -1,0 +1,71 @@
+2025-08-31 06:10:06 [error]: Create New Application Insert Failed: ERROR: column "application_id" does not exist (SQLSTATE 42703)
+2025-08-31 06:11:31 [error]: Create New Application Insert Failed: ERROR: column "application_id" does not exist (SQLSTATE 42703)
+2025-08-31 06:14:17 [error]: Create New Application Insert Failed: ERROR: null value in column "refGstin" of relation "refBrandApplication" violates not-null constraint (SQLSTATE 23502)
+2025-08-31 06:37:02 [info]: Brand application created and mail sent successfully to: loganathanvj123@gmail.com
+2025-08-31 06:43:38 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 06:53:30 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 06:53:32 [error]: Mail sending failed for brand: 
+2025-08-31 06:54:53 [error]: Create New Application Insert Failed: sql: Scan error on column index 0, name "refApplicationCustId": unsupported Scan, storing driver.Value type string into type *model.BrandApplicationIdResponse
+2025-08-31 06:57:09 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 06:57:11 [error]: Mail sending failed for brand: 
+2025-08-31 06:57:21 [error]: Create New Application Insert Failed: sql: Scan error on column index 0, name "refApplicationCustId": unsupported Scan, storing driver.Value type string into type *model.BrandApplicationIdResponse
+2025-08-31 07:00:11 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:00:13 [error]: Mail sending failed for brand: 
+2025-08-31 07:03:26 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:03:27 [error]: Mail sending failed for brand: 
+2025-08-31 07:04:10 [error]: Create New Application Insert Failed: ERROR: unterminated quoted identifier at or near """ (SQLSTATE 42601)
+2025-08-31 07:07:05 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:07:06 [error]: Mail sending failed for brand: 
+2025-08-31 07:08:58 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:09:01 [error]: Mail sending failed for brand: 
+2025-08-31 07:09:46 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:09:47 [error]: Mail sending failed for brand: 
+2025-08-31 07:10:29 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:10:33 [info]: Brand application created and mail sent successfully to: 
+2025-08-31 07:11:04 [error]: Create New Application Insert Failed: sql: Scan error on column index 0, name "refApplicationCustId": unsupported Scan, storing driver.Value type string into type *model.BrandApplicationIdResponse
+2025-08-31 07:16:35 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:16:39 [info]: Brand application created and mail sent successfully to: 
+2025-08-31 07:17:07 [info]: Brand application created and mail sent successfully to: vloganathan1969@gmail.com.com
+2025-08-31 07:17:34 [info]: Brand application created and mail sent successfully to: loganathanvj123@gmail.com.com
+2025-08-31 07:18:08 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:18:12 [info]: Brand application created and mail sent successfully to: 
+2025-08-31 07:19:32 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:19:35 [info]: Brand application created and mail sent successfully to: 
+2025-08-31 07:20:37 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:20:40 [info]: Brand application created and mail sent successfully to: 
+2025-08-31 07:26:05 [warning]: Brand Entered Email Id is Already Present For the Other Brand : 
+2025-08-31 07:26:08 [info]: Brand application created and mail sent successfully to: 
+2025-08-31 07:29:41 [info]: Brand application created and mail sent successfully to: loganathanvj123@gmail.com
+2025-08-31 08:53:41 [info]: Brand application created and mail sent successfully to: loganathanvj123@gmail.com
+2025-08-31 09:00:19 [error]: failed to generate upload URL: Minio client is not initialized, call InitMinioClient() first
+2025-08-31 11:44:42 [info]: Old document deleted successfully: testBrand_973951.png
+2025-08-31 11:45:15 [info]: Old document deleted successfully: testBrand_541222.png
+2025-08-31 13:36:02 [info]: Old document deleted successfully: Techno_939532.png
+2025-08-31 13:39:59 [info]: Old document deleted successfully: Techno_184691.png
+2025-08-31 13:42:31 [info]: Old document deleted successfully: Techno_997756.png
+2025-08-31 14:44:31 [info]: Old document deleted successfully: Test_822940.png
+2025-08-31 14:44:59 [info]: Old document deleted successfully: Test_623413.png
+2025-08-31 16:01:59 [info]: Brand application created and mail sent successfully to: ranjaniVijay111@gmail.com
+2025-08-31 16:36:37 [error]: Error in getting the Brand Register Form Data: sql: Scan error on column index 0, name "refApplicationStatus": unsupported Scan, storing driver.Value type int64 into type *brandRegistrationModel.GetBrandStatusFromDbRes
+2025-08-31 17:37:27 [info]: Brand application created and mail sent successfully to: ranjaniVijay111@gmail.com
+2025-08-31 18:47:40 [info]: Brand application created and mail sent successfully to: ranjaniVijay111@gmail.com
+2025-08-31 18:50:46 [error]: Error in Updating the Brand InFormation Data: ERROR: invalid input syntax for type integer: "" (SQLSTATE 22P02)
+2025-08-31 18:55:26 [error]: Error in Updating the Brand InFormation Data: ERROR: invalid input syntax for type integer: "" (SQLSTATE 22P02)
+2025-08-31 18:56:38 [error]: Error in Updating the Brand InFormation Data: ERROR: invalid input syntax for type integer: "" (SQLSTATE 22P02)
+2025-08-31 18:57:05 [error]: Error in Updating the Brand InFormation Data: ERROR: invalid input syntax for type integer: "" (SQLSTATE 22P02)
+2025-08-31 19:00:37 [error]: Error in Updating the Brand InFormation Data: ERROR: invalid input syntax for type integer: "" (SQLSTATE 22P02)
+2025-08-31 19:02:35 [error]: Error in Updating Brand Contact Details: &{0xc00069e000 <nil> 0 0xc000362b40 0}
+2025-08-31 19:03:53 [error]: Error in Updating Brand Contact Details: &{0xc00062e000 <nil> 0 0xc0006345a0 0}
+2025-08-31 19:12:00 [error]: Error in Updating Brand Contact Details: &{0xc0004a66e0 <nil> 0 0xc0002f70e0 0}
+2025-08-31 19:16:54 [error]: Error in Updating Brand Contact Details: &{0xc0000c5970 <nil> 0 0xc00033cf00 0}
+2025-08-31 19:18:57 [error]: Error in Updating Brand Contact Details: &{0xc0004e2000 <nil> 0 0xc00016ad20 0}
+2025-08-31 19:22:40 [error]: Error in Updating Brand Contact Details: &{0xc000720000 <nil> 0 0xc000324780 0}
+2025-08-31 19:23:44 [error]: Error in Updating Brand Contact Details: &{0xc0004a60b0 <nil> 0 0xc0003b4b40 0}
+2025-08-31 19:30:13 [error]: Error in Updating Brand Contact Details: &{0xc0005264d0 <nil> 0 0xc0003b52c0 0}
+2025-08-31 19:32:08 [error]: Error in Updating Brand Contact Details: &{0xc0004571e0 <nil> 0 0xc0003530e0 0}
+2025-08-31 19:35:13 [error]: Error in Updating Brand Contact Details: &{0xc0000c5810 <nil> 0 0xc0004fa1e0 0}
+2025-08-31 19:40:57 [error]: Error in Updating the Brand Location Data: &{0xc0000c58c0 <nil> 1 0xc0003f2000 0}
+2025-08-31 19:43:18 [error]: Error in Updating the Brand Location Data: &{0xc000514000 <nil> 0 0xc00051c780 0}
+2025-08-31 19:44:48 [error]: Error in Updating the Brand Location Data: &{0xc0004451e0 <nil> 0 0xc000122780 0}
+2025-08-31 19:46:19 [error]: Error in Updating the Brand Location Data: &{0xc0004bc000 <nil> 0 0xc0004ca1e0 0}
+2025-08-31 19:53:45 [info]: Old document deleted successfully: TestBrand_167869.png
